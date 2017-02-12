@@ -4,7 +4,7 @@
 dir=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 
 # Link the dotfiles
-files="vimrc"
+files="gitignore_global vimrc"
 for f in $files; do
     ln -s "$dir/$f" ~/."$f"
 done
