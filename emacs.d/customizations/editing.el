@@ -70,3 +70,6 @@
     (quit nil)))
 
 (setq electric-indent-mode nil)
+
+;; Show trailing whitespace
+(setq-default show-trailing-whitespace t)

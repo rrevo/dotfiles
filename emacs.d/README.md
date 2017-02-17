@@ -35,7 +35,7 @@ first time.
    line to it:
 
 ```clojure
-{:user {:plugins [[cider/cider-nrepl "0.8.1"]]}} 
+{:user {:plugins [[cider/cider-nrepl "0.8.1"]]}}
 ```
 
 Then open Emacs.
@@ -52,7 +52,7 @@ To upgrade:
    ```elisp
    (add-to-list 'package-archives
                 '("melpa-stable" . "http://stable.melpa.org/packages/") t)
-   
+
    (add-to-list 'package-pinned-packages '(cider . "melpa-stable") t)
    ```
 
