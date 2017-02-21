@@ -10,3 +10,8 @@
 
 ;; Go straight to scratch buffer on startup
 (setq inhibit-startup-message t)
+
+;; New instance of emacs in OSX
+(defun new-emacs ()
+  (interactive)
+  (shell-command "open -n -a /Applications/Emacs.app"))
