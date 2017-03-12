@@ -59,3 +59,12 @@
 
 ;; projectile everywhere!
 (projectile-global-mode)
+
+;; F8 to toggle neotree
+(global-set-key [f8] 'neotree-toggle)
+
+;; neotree jump to current file
+(setq neo-smart-open t)
+
+;; projectile - neotree integration
+(setq projectile-switch-project-action 'neotree-projectile-action)

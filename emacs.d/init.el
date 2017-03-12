@@ -65,6 +65,9 @@
     ;; project navigation
     projectile
 
+    ;; neo tree
+    neotree
+
     ;; colorful parenthesis matching
     rainbow-delimiters
 
